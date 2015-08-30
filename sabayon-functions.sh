@@ -266,7 +266,7 @@ sabayon_setup_text_installer() {
 
 sabayon_setup_text_installer_motd() {
     echo "Welcome to Sabayon Linux Text installation." >> /etc/motd
-    echo "to run the installation type: installer <and PRESS ENTER>" >> /etc/motd
+    echo "to run the installation start the X server with vesa and run 'installer'" >> /etc/motd
 }
 
 sabayon_is_text_install() {
